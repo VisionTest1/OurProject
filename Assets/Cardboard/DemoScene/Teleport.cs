@@ -45,12 +45,9 @@ public class Teleport : MonoBehaviour {
 
 	public void Teleport_Camera()
 	{
-		Vector3 direction = this.transform.position - GameObject.Find("CardboardMain").GetComponent<Transform>().position;
-		GameObject.Find("CardboardMain").GetComponent<Transform>().position += direction / 10;
-//		GameObject.Find("GazePointer").GetComponent<Transform>().position += direction / 10;
-//		Vector3 direction = this.transform.position - GameObject.Find("Head").GetComponent<Transform>().position;
-//		GameObject.Find("Head").GetComponent<Transform>().position += direction / 10;
+//		Vector3 direction = this.transform.position - GameObject.Find("CardboardMain").GetComponent<Transform>().position;
+//		GameObject.Find("CardboardMain").GetComponent<Transform>().position += direction / 10;
+
 
 	}
-	
 }
